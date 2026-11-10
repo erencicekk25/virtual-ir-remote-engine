@@ -1,0 +1,13 @@
+build/
+build-*/
+cmake-build-*/
+out/
+.vs/
+.vscode/
+.idea/
+*.exe
+*.obj
+*.o
+*.a
+*.lib
+compile_commands.json
