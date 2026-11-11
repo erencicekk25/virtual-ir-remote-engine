@@ -1,5 +1,9 @@
 # virtual-ir-remote-engine
 
+[![CI](https://github.com/erencicekk25/virtual-ir-remote-engine/actions/workflows/ci.yml/badge.svg)](https://github.com/erencicekk25/virtual-ir-remote-engine/actions/workflows/ci.yml)
+![Language](https://img.shields.io/badge/C%2B%2B-17-blue.svg)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+
 Elinizdeki televizyon kumandasının bir tuşuna bastığınızda aslında ne olduğunu hiç merak ettiniz mi? Bu proje tam olarak o soruya cevap vermek için yazıldı. Gerçek bir kızılötesi (IR) LED'e ya da alıcıya ihtiyaç duymadan, **NEC protokolünü** bit bit ve mikrosaniye mikrosaniye taklit eden bir kumanda ile bu sinyalleri dinleyip çözen sanal bir televizyonu modern C++17 ile hayata geçiriyor.
 
 Kumanda ve TV aynı makinede, iki ayrı bileşen olarak çalışıyor ve aralarındaki "hava" UDP üzerinden simüle ediliyor. Böylece hem protokolün mantığını adım adım izleyebiliyor hem de gürültü, yanlış adres, bozuk paket gibi gerçek hayatta karşılaşılan durumların alıcı tarafında nasıl ele alındığını görebiliyorsunuz.
